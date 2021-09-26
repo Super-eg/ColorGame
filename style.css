@@ -1,0 +1,31 @@
+body {
+	background: linear-gradient(to right, rgb(154, 38, 170), rgb(255, 232, 53));
+}
+
+.option {
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#modeShow {
+	margin: 15px;
+}
+
+.score {
+	margin: 10px;
+}
+
+.inSameDiv {
+	display: inline-block;
+}
+
+#show {
+	font-size: 34px;
+	margin: 20px;
+}
+
+.timeModeOpen {
+	display: none;
+}

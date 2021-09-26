@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Choose The Color</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1 id="modeShow">Choose the COLOR</h1>
+		<button id="modeButton" onclick="changeMode()">Change to Text mode</button>
+		<button id="scoreReset" onclick="scoreReset()">Score Reset</button><br/>
+		<button id="timeButton" onclick="timeMode()">Time mode:OFF</button>
+		<button class="timeModeOpen" id="timeStartButton" onclick="">Start</button>
+		<button class="timeModeOpen" id="bestScoreButton" onclick="">Clear Your Best Score</button>
+		<strong><p id="show"></p></strong>
+		<button class="option" style="background-color: red" onclick="submit('red')">Red:1</button>
+		<button class="option" style="background-color: blue; color:white" onclick="submit('blue')">Blue</button>
+		<button class="option" style="background-color: yellow" onclick="submit('yellow')">Yellow</button>
+		<button class="option" style="background-color: limegreen" onclick="submit('limegreen')">LimeGreen</button>
+		<button class="option" style="background-color: orange" onclick="submit('orange')">Orange</button>
+		<button class="option" style="background-color: black; color:white" onclick="submit('black')">Black</button>
+		<h2 id="result">Try it</h2>
+		<div class="score">
+			<h4 class="inSameDiv" id="text" >Your Score is :</h4>
+			<h4 class="inSameDiv" id="scoreShow">0</h4>
+		</div>
+		<div class="score">
+			<h3 class="inSameDiv" id="bestText" >Your Best Score is (in time mode):</h3>
+			<h3 class="inSameDiv" id="bestScoreShow">0</h3>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
